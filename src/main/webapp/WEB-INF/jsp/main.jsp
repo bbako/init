@@ -7,6 +7,7 @@
     <title>Insert title here</title>
 </head>
 <body>
-<h1>Hello Spring Boot!</h1>
+<h1>main page</h1>
+${country_list}
 </body>
 </html>
