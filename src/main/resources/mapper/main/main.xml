@@ -3,23 +3,12 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="mainMapper">
-    <select id="getCountry" resultType="MainVO">
+    <select id="getMember" resultType="MainVO">
         SELECT
-            code
-            , name
-            , continent
-            , region
-            , surfacearea
-            , indepyear
-            , population
-            , lifeexpectancy
-            , gnp
-            , gnpold
-            , localname
-            , governmentform
-            , headofstate
-            , capital
-            , code2
-        FROM country;
+            mem_seq
+            , mem_id
+            , mem_pw
+            , mem_name
+        FROM member;
     </select>
 </mapper>

@@ -13,9 +13,9 @@ public class MainDao {
 
     private SqlSession sqlSession;
 
-    public List<MainVO> getCountry() {
+    public List<MainVO> getMember() {
 
-        List<MainVO> noticeList = sqlSession.selectList("mainMapper.getCountry");
+        List<MainVO> noticeList = sqlSession.selectList("mainMapper.getMember");
 
         return noticeList;
     }

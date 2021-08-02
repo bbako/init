@@ -13,8 +13,8 @@ public class MainService {
 
     MainDao mainDao;
 
-    public List<MainVO> getCountry() {
-        List<MainVO> country_list = mainDao.getCountry();
+    public List<MainVO> getMember() {
+        List<MainVO> country_list = mainDao.getMember();
         return country_list;
     }
 }

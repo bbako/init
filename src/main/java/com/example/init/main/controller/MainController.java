@@ -20,7 +20,7 @@ public class MainController {
     @GetMapping("/")
     public String hello(Model model) throws Exception {
 
-        List<MainVO> country_list = mainService.getCountry();
+        List<MainVO> country_list = mainService.getMember();
         model.addAttribute("country_list" , country_list);
 
         return "main";
